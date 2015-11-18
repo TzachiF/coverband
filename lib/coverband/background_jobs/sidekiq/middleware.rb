@@ -1,5 +1,3 @@
-require "coverband"
-
 if defined?(Sidekiq)
   require 'coverband/background_jobs/sidekiq/server_tracker'
   Sidekiq.configure_server do |config|
