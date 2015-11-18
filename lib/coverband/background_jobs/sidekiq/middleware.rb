@@ -1,5 +1,4 @@
 require "coverband"
-configuration = Coverband.configuration
 
 if defined?(Sidekiq)
   require 'coverband/background_jobs/sidekiq/server_tracker'
